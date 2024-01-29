@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'multimod';
+
+  numbers :number[] = Array(5).fill(0).map((x, index)=> index + 1);
 }
